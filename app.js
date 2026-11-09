@@ -441,8 +441,8 @@ updateCountdown();
 // ========================================================
 const EVENT_CALENDAR_DATA = {
   engagement: {
-    title: "நிச்சயதார்த்தம் (Nichayathartham): Dr. Naveen Kumar & Dr. Niranjana",
-    description: "மாங்கல்ய நிச்சயதார்த்த வைபவம் - Join us in celebrating the Engagement Ceremony (Nischayathartham) of Dr. Naveen Kumar & Dr. Niranjana.",
+    title: "நிச்சயதார்த்தம் (Engagement): Dr. Naveen Kumar & Dr. Niranjana",
+    description: "Join us in celebrating the Engagement Ceremony (Nischayathartham) of Dr. Naveen Kumar & Dr. Niranjana.",
     location: "Vijaya Mahal, Chinnalapatti, Dindigul District, Tamil Nadu",
     startUTC: "20261212T130000Z", // 6:30 PM IST (UTC + 5:30)
     endUTC: "20261212T163000Z",
@@ -450,8 +450,8 @@ const EVENT_CALENDAR_DATA = {
     endDate: "20261212T220000"
   },
   wedding: {
-    title: "திருமணம் (Thirumanam - Muhurtham): Dr. Naveen Kumar & Dr. Niranjana",
-    description: "சுப முகூர்த்தத் திருக்கல்யாண நல்வைபவம் - Auspicious Wedding Ceremony (Kalyanam) of Dr. Naveen Kumar and Dr. Niranjana.",
+    title: "திருமணம் (Wedding): Dr. Naveen Kumar & Dr. Niranjana",
+    description: "Auspicious Wedding Ceremony (Kalyanam) of Dr. Naveen Kumar and Dr. Niranjana.",
     location: "Vijaya Mahal, Chinnalapatti, Dindigul District, Tamil Nadu",
     startUTC: "20261213T020000Z", // 7:30 AM IST
     endUTC: "20261213T050000Z",   // 10:30 AM IST
@@ -459,8 +459,8 @@ const EVENT_CALENDAR_DATA = {
     endDate: "20261213T103000"
   },
   reception: {
-    title: "மணவிருந்து (Valaikappu / Virunthu): Dr. Naveen Kumar & Dr. Niranjana",
-    description: "மங்கல மணவிருந்து - Grand Wedding Reception celebration and feast in honour of Dr. Naveen Kumar and Dr. Niranjana.",
+    title: "மணவிருந்து (Reception): Dr. Naveen Kumar & Dr. Niranjana",
+    description: "Grand Wedding Reception celebration of Dr. Naveen Kumar and Dr. Niranjana.",
     location: "GVN Mahal, Thirukazhukundram, Chengalpattu District, Tamil Nadu",
     startUTC: "20261220T130000Z", // 6:30 PM IST
     endUTC: "20261220T170000Z",
@@ -820,7 +820,7 @@ window.downloadInvitationCard = async function() {
 // ========================================================
 window.sendWhatsAppRSVP = function() {
   const text = encodeURIComponent(
-    "வணக்கம் Dr. Naveen Kumar & Dr. Niranjana, தங்களின் திருமண நல்விழாவிற்கு எனது மனமார்ந்த நல்வாழ்த்துகள்! I am delighted to confirm my attendance for your wedding celebrations! Wishing you both a lifetime of happiness, health, and togetherness."
+    "Greetings Dr. Naveen Kumar & Dr. Niranjana, my heartfelt congratulations on your wedding! I am delighted to confirm my attendance for your wedding celebrations! Wishing you both a lifetime of happiness, health, and togetherness."
   );
   window.open(`https://api.whatsapp.com/send?text=${text}`, "_blank", "noopener,noreferrer");
 };
